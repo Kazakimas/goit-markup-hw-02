@@ -16,11 +16,13 @@
   <body>
     <header class="header">
       <nav class="header-nav">
-        <a class="header-logo link" href="./index.html">WebStudio</a>
+        <a class="header-logo link" href="./index.html"><span class="logo-link">Web</span>Studio</a>
         <ul class="header-list list">
-          <li class="header-item"><a class="header-link link" href="./index.html">Студія</a></li>
           <li class="header-item">
-            <a class="header-link link" href="./portfolio.html">Портфоліо</a>
+            <a class="header-link link" href="./index.html">Студія</a>
+          </li>
+          <li class="header-item">
+            <a class="header-link link current" href="./portfolio.html">Портфоліо</a>
           </li>
           <li class="header-item"><a class="header-link link" href="#">Контакти</a></li>
         </ul>
@@ -33,68 +35,93 @@
       </ul>
     </header>
     <main>
-      <section>
-        <ul>
-          <li><button type="button">Усі</button></li>
-          <li><button type="button">Веб-сайти</button></li>
-          <li><button type="button">Додатки</button></li>
-          <li><button type="button">Дизайн</button></li>
-          <li><button type="button">Маркетинг</button></li>
+      <section class="section-button">
+        <ul class="button-list list">
+          <li class="button-item">
+            <button class="button-link" type="button">Усі</button>
+          </li>
+          <li class="button-item">
+            <button class="button-link" type="button">Веб-сайти</button>
+          </li>
+          <li class="button-item">
+            <button class="button-link" type="button">Додатки</button>
+          </li>
+          <li class="button-item">
+            <button class="button-link" type="button">Дизайн</button>
+          </li>
+          <li class="button-item">
+            <button class="button-link" type="button">Маркетинг</button>
+          </li>
         </ul>
       </section>
-      <section>
-        <h1>Наші проєкти</h1>
-        <ul>
-          <li>
-            <img src="./images/project1.jpg" alt="Технокряк" width="370" />
-            <h3>Технокряк</h3>
-            <p>Веб-сайт</p>
+      <section class="section-project">
+        <h1 class="project-title visually-hidden">Наші проєкти</h1>
+        <ul class="project-list list">
+          <li class="project-item">
+            <img src="./images/project1.jpg" alt="Технокряк" width="370" height="294" />
+            <h3 class="project-link">Технокряк</h3>
+            <p class="project-paragraph">Веб-сайт</p>
           </li>
-          <li>
-            <img src="./images/project2.jpg" alt="Постер New Orlean vs Golden Star" width="370" />
-            <h3>Постер New Orlean vs Golden Star</h3>
-            <p>Дизайн</p>
+          <li class="project-item">
+            <img
+              src="./images/project2.jpg"
+              alt="Постер New Orlean vs Golden Star"
+              width="370"
+              height="294"
+            />
+            <h3 class="project-link">Постер New Orlean vs Golden Star</h3>
+            <p class="project-paragraph">Дизайн</p>
           </li>
-          <li>
-            <img src="./images/project3.jpg" alt="Ресторан Seafood" width="370" />
-            <h3>Ресторан Seafood</h3>
-            <p>Додаток</p>
+          <li class="project-item">
+            <img src="./images/project3.jpg" alt="Ресторан Seafood" width="370" height="294" />
+            <h3 class="project-link">Ресторан Seafood</h3>
+            <p class="project-paragraph">Додаток</p>
           </li>
-          <li>
-            <img src="./images/project4.jpg" alt="Проєкт Prime" width="370" />
-            <h3>Проєкт Prime</h3>
-            <p>Маркетинг</p>
+          <li class="project-item">
+            <img src="./images/project4.jpg" alt="Проєкт Prime" width="370" height="294" />
+            <h3 class="project-link">Проєкт Prime</h3>
+            <p class="project-paragraph">Маркетинг</p>
           </li>
-          <li>
-            <img src="./images/project5.jpg" alt="Проєкт Boxes" width="370" />
-            <h3>Проєкт Boxes</h3>
-            <p>Додаток</p>
+          <li class="project-item">
+            <img src="./images/project5.jpg" alt="Проєкт Boxes" width="370" height="294" />
+            <h3 class="project-link">Проєкт Boxes</h3>
+            <p class="project-paragraph">Додаток</p>
           </li>
-          <li>
-            <img src="./images/project6.jpg" alt="Inspiration has no Borders" width="370" />
-            <h3>Inspiration has no Borders</h3>
-            <p>Веб-сайт</p>
+          <li class="project-item">
+            <img
+              src="./images/project6.jpg"
+              alt="Inspiration has no Borders"
+              width="370"
+              height="294"
+            />
+            <h3 lang="en" class="project-link">Inspiration has no Borders</h3>
+            <p class="project-paragraph">Веб-сайт</p>
           </li>
-          <li>
-            <img src="./images/project7.jpg" alt="Видання Limited Edition" width="370" />
-            <h3>Видання Limited Edition</h3>
-            <p>Дизайн</p>
+          <li class="project-item">
+            <img
+              src="./images/project7.jpg"
+              alt="Видання Limited Edition"
+              width="370"
+              height="294"
+            />
+            <h3 class="project-link">Видання Limited Edition</h3>
+            <p class="project-paragraph">Дизайн</p>
           </li>
-          <li>
-            <img src="./images/project8.jpg" alt="Проєкт LAB" width="370" />
-            <h3>Проєкт LAB</h3>
-            <p>Маркетинг</p>
+          <li class="project-item">
+            <img src="./images/project8.jpg" alt="Проєкт LAB" width="370" height="294" />
+            <h3 class="project-link">Проєкт LAB</h3>
+            <p class="project-paragraph">Маркетинг</p>
           </li>
-          <li>
-            <img src="./images/project9.jpg" alt="Growing Business" width="370" />
-            <h3>Growing Business</h3>
-            <p>Додаток</p>
+          <li class="project-item">
+            <img src="./images/project9.jpg" alt="Growing Business" width="370" height="294" />
+            <h3 lang="en" class="project-link">Growing Business</h3>
+            <p class="project-paragraph">Додаток</p>
           </li>
         </ul>
       </section>
     </main>
     <footer class="footer">
-      <a class="footer-logo link" href="./index.html">WebStudio</a>
+      <a class="footer-logo link" href="./index.html"><span class="logo-link">Web</span>Studio</a>
       <address class="address">
         <ul class="footer-list list">
           <li class="footer-item">

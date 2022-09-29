@@ -24,8 +24,7 @@ body {
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    color: #212121;
-
+    color: #000000;
 }
 
 .logo-link {
@@ -33,6 +32,10 @@ body {
 }
 
 .header-list :hover, .header-list :focus {
+    color: #2196F3;
+}
+
+.header-list .current {
     color: #2196F3;
 }
 
@@ -66,8 +69,9 @@ body {
 
 /* ----------HEADER---------- */
 
+/* ----------HERO------------ */
 
-.hero {
+.section-hero {
     background: #2F303A
 }
 
@@ -86,18 +90,32 @@ body {
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.88;
     display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
     color: #FFFFFF;
     background-color: #2196F3;
+    cursor: pointer;
+    border: 0px;
 }
 
+/* ----------HERO------------ */
 
-.advances-title {
-    display: none;
+/* ----------ПЕРЕВАГИ------------ */
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
 }
 
 .advances-post-title {
@@ -117,6 +135,11 @@ body {
     letter-spacing: 0.03em;
     color: #757575;
 }
+
+/* ----------ПЕРЕВАГИ------------ */
+
+/* ----------ЩО РОБИМО------------ */
+
 .section-work {
     background: #F5F5F5;
 }
@@ -128,6 +151,10 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
 }
+
+/* ----------ЩО РОБИМО------------ */
+
+/* ----------КОМАНДА-------------- */
 
 .section-team {
     background: #F5F4FA
@@ -159,12 +186,16 @@ body {
     color: #757575;
 }
 
+/* ----------КОМАНДА-------------- */
+
+/* ----------FOOTER-------------- */
+
 .footer {
     background: #2F303A;
 }
 
 .footer-list :hover,
-.header-list :focus {
+.footer-list :focus {
     color: #2196F3
 }
 
@@ -179,7 +210,7 @@ font-family: 'Raleway';
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: #FFFFFF;
 }
 
 .footer-map {
@@ -205,4 +236,50 @@ font-family: 'Raleway';
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+}
+
+/* ----------FOOTER-------------- */
+
+/* ----------ФІЛЬТРИ-------------- */
+
+.button-item :hover,
+.button-item :focus {
+    color: #FFFFFF;
+    background: #2196F3;
+}
+
+.button-link {
+    cursor: pointer;
+    border: 0px;
+    border-radius: 4px;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    background: #F5F4FA
+}
+
+
+
+/* ----------ФІЛЬТРИ-------------- */
+
+/* ----------ПРОЄКТИ-------------- */
+
+.project-link {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+
+.project-paragraph {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: #757575;
 }
