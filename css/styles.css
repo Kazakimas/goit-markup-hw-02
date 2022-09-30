@@ -220,7 +220,6 @@ font-family: 'Raleway';
 }
 
 .footer-map {
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -229,7 +228,6 @@ font-family: 'Raleway';
 }
 
 .footer-mail {
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -237,7 +235,6 @@ font-family: 'Raleway';
 }
 
 .footer-tel {
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
